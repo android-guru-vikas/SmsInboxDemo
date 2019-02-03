@@ -1,0 +1,688 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="viewpager_margin">-64dp</dimen>
+    <dimen name="viewpager_margin_fix">32dp</dimen>
+
+    <!--text for margin & padding-->
+    <dimen name="one_dp">1dp</dimen>
+    <dimen name="one_point_five_dp">1.5dp</dimen>
+    <dimen name="two_dp">2dp</dimen>
+    <dimen name="three_dp">3dp</dimen>
+    <dimen name="four_dp">4dp</dimen>
+    <dimen name="five_dp">5dp</dimen>
+    <dimen name="six_dp">6dp</dimen>
+    <dimen name="seven_dp">7dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="nine_dp">9dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+
+
+    <dimen name="eleven_dp">11dp</dimen>
+    <dimen name="twelve_dp">12dp</dimen>
+    <dimen name="thirteen_dp">13dp</dimen>
+    <dimen name="fourteen_dp">14dp</dimen>
+    <dimen name="fifteen_dp">15dp</dimen>
+    <dimen name="sixteen_dp">16dp</dimen>
+    <dimen name="seventeen_dp">17dp</dimen>
+    <dimen name="eighteen_dp">18dp</dimen>
+    <dimen name="nineteen_dp">19dp</dimen>
+    <dimen name="twenty_dp">20dp</dimen>
+    <dimen name="twenty_two_dp">22dp</dimen>
+    <dimen name="twenty_four_dp">24dp</dimen>
+    <dimen name="twenty_five_dp">25dp</dimen>
+    <dimen name="twenty_eight_dp">28dp</dimen>
+    <dimen name="thirty_dp">30dp</dimen>
+    <dimen name="thirty_six_dp">36dp</dimen>
+
+
+    <dimen name="forty_dp">40dp</dimen>
+    <dimen name="forty_five_dp">45dp</dimen>
+    <dimen name="fifty_dp">50dp</dimen>
+    <dimen name="fifty_five_dp">55dp</dimen>
+
+    <dimen name="sixty_dp">60dp</dimen>
+    <dimen name="seventy_dp">70dp</dimen>
+    <dimen name="seventy_five_dp">75dp</dimen>
+
+
+    <dimen name="ninety_dp">90dp</dimen>
+    <dimen name="two_sixty_dp">260dp</dimen>
+
+
+    <!--text size -->
+
+
+    <!--text for margin & padding-->
+    <dimen name="one_sp">1sp</dimen>
+    <dimen name="two_sp">2sp</dimen>
+    <dimen name="three_sp">3sp</dimen>
+    <dimen name="four_sp">4sp</dimen>
+    <dimen name="five_sp">5sp</dimen>
+    <dimen name="six_sp">6sp</dimen>
+    <dimen name="seven_sp">7sp</dimen>
+    <dimen name="eight_sp">8sp</dimen>
+    <dimen name="nine_sp">9sp</dimen>
+    <dimen name="ten_sp">10sp</dimen>
+    <dimen name="eleven_sp">11sp</dimen>
+    <dimen name="twelve_sp">12sp</dimen>
+    <dimen name="thirteen_sp">13sp</dimen>
+    <dimen name="fourteen_sp">14sp</dimen>
+    <dimen name="fifteen_sp">15sp</dimen>
+    <dimen name="sixteen_sp">16sp</dimen>
+    <dimen name="seventeen_sp">17sp</dimen>
+    <dimen name="eighteen_sp">18sp</dimen>
+    <dimen name="nineteen_sp">19sp</dimen>
+    <dimen name="twenty_sp">20sp</dimen>
+    <dimen name="twenty_one_sp">21sp</dimen>
+    <dimen name="eleven_seven_sp">11.7sp</dimen>
+
+
+    <!--menu_&_ Setting Text Size-->
+
+    <dimen name="menu_title_text">16sp</dimen>
+    <dimen name="menu_sub_title_text">15sp</dimen>
+    <dimen name="text_row_height">45dp</dimen>
+    <dimen name="next_icon_width">30dp</dimen>
+    <dimen name="next_icon_height">30dp</dimen>
+    <dimen name="menu_swip_icon_size">30dp</dimen>
+    <dimen name="search_text_size">16sp</dimen>
+    <dimen name="setting_text_size">16sp</dimen>
+
+
+    <!--home screen news -->
+    <dimen name="small_thumbnail_image_width">112dp</dimen>
+    <dimen name="small_thumbnail_image_height">64dp</dimen>
+
+    <!--cricket card-->
+    <dimen name="cricket_card_image_width">27.3dp</dimen>
+    <dimen name="cricket_card_image_height">27.3dp</dimen>
+    <!--election card-->
+    <dimen name="election_card_height">196.7dp</dimen>
+    <!--home lateast news -->
+    <dimen name="latest_news_card_height">196.7dp</dimen>
+    <dimen name="latest_news_title_text_sp">16.4sp</dimen>
+    <dimen name="latest_news_home_summary_icon_width">32.3dp</dimen>
+    <dimen name="latest_news_home_summary_icon_height">22.3sp</dimen>
+
+
+    <!--live show name row-->
+    <dimen name="live_show_height">35dp</dimen>
+    <dimen name="live_show_icon_height">17dp</dimen>
+    <dimen name="live_tv_text_sp">9.4sp</dimen>
+    <dimen name="live_tv_show_name_text_size">11sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--set some dimen for multiple device-->
+    <dimen name="brief_image_height">196.7dp</dimen>
+    <dimen name="video_list_row_height">196.7dp</dimen>
+
+    <dimen name="size_home_toolbar">45dp</dimen>
+    <dimen name="tap_height">34dp</dimen>
+    <dimen name="tap_margin">79dp</dimen>
+
+    <dimen name="channel_name_row_height">51dp</dimen>
+    <dimen name="scroll_card_image_height">159.7dp</dimen>
+    <dimen name="scroll_pager_height">30dp</dimen>
+    <!--ther is hard code value is 215-->
+    <dimen name="horizontal_pager_height">110dp</dimen>
+    <dimen name="article_detail_image_height">202dp</dimen>
+    <dimen name="live_tv_height">252dp</dimen>
+    <dimen name="testValue">0dp</dimen>
+
+    <!--nov 24-->
+
+    <dimen name="cricket_card_view_pager_height">165dp</dimen>
+    <dimen name="election_card_view_pager_height">0dp</dimen>
+    <dimen name="opinion_poll_view_pager_height">0dp</dimen>
+
+
+    <!--nov 28 activity_campaign.xml Image view and text view size-->
+    <dimen name="iv_cricleCrossIcon_height">20dp</dimen>
+    <dimen name="iv_cricleCrossIcon_width">20dp</dimen>
+    <dimen name="iv_height">1dp</dimen>
+    <dimen name="tv_newsTitle">18.7sp</dimen>
+    <dimen name="nestedscrollminwidth">100dp</dimen>
+
+
+    <!--nov 28 activity_facebook_comment.xml Image view and text view size-->
+    <dimen name="tv_messageText">18.7sp</dimen>
+
+
+    <!--nov 28 a activity_fav_layout.xml Image view and text view size-->
+
+    <dimen name="tab_layout_height">34dp</dimen>
+    <dimen name="tabMinWidth">90dp</dimen>
+
+    <!--nov 28 activity_live_t.xml Image view and text view size-->
+
+    <dimen name="iv_playIcon_width">40dp</dimen>
+    <dimen name="iv_playIcon_height">40dp</dimen>
+
+
+    <!--nov 28 activity_multiple_photo_detail.xml Image view and text view size-->
+
+    <dimen name="iv_crossIcon_width">50dp</dimen>
+    <dimen name="iv_crossIcon_height">50dp</dimen>
+
+
+    <!--nov 28 activity_notification_hub.xml Image view and text view size-->
+
+    <dimen name="tv_notification_hub_messageText">18.7sp</dimen>
+
+    <!--nov 28 activity_serach_layout.xml Image view and text view size-->
+
+    <dimen name="tv_resultText">11.7sp</dimen>
+
+
+    <!--nov 28 activity_video_detail.xml Image view and text view size-->
+
+    <dimen name="iv_topTrcLayout">370dp</dimen>
+
+
+    <!--nov 28 activity_video_detail_row.xml Image view and text view size-->
+    <dimen name="iv_thumbIcon_height">260dp</dimen>
+    <dimen name="iv_playIcon_video_detail_height">40dp</dimen>
+    <dimen name="iv_playIcon_video_detail_width">40dp</dimen>
+    <dimen name="iv_height_bottom">1dp</dimen>
+
+
+    <!--nov 28 add_custom_layout.xml Image view and text view size-->
+    <dimen name="iv_adImageview_height">90dp</dimen>
+    <dimen name="iv_adImageview_width">120dp</dimen>
+    <dimen name="tv_adTextview_size">13sp</dimen>
+    <dimen name="tv_adTitleTextview_size">15sp</dimen>
+    <dimen name="iv_dividerImageView_size">0.5dp</dimen>
+
+
+    <!--nov 28 app_information.xml Image view and text view size-->
+    <dimen name="textSizeTextView">13sp</dimen>
+
+
+    <!--nov 28 article_detail_bullet_point.xml Image view and text view size-->
+
+    <dimen name="iv_redDotImageView_width">5dp</dimen>
+    <dimen name="iv_redDotImageView_height">5dp</dimen>
+
+
+    <!--nov 28 article_news_detail_row.xml Image view and text view size-->
+
+    <dimen name="tv_nextstoryText">18.7sp</dimen>
+    <dimen name="tv_articleTitle">24.3sp</dimen>
+    <dimen name="image_view_1dp">1dp</dimen>
+    <dimen name="dividerImage_width">1dp</dimen>
+    <dimen name="dividerImage_height">10dp</dimen>
+    <dimen name="iv_red_header_color_height">3dp</dimen>
+
+
+    <!--nov 28  article_share_layout.xml Image view and text view size-->
+    <dimen name="tv_summaryText_article">12sp</dimen>
+    <dimen name="tv_commentText">11.7sp</dimen>
+
+
+    <!--nov 28  attachment_row_layout.xml Image view and text view size-->
+
+
+    <dimen name="iv_attachImage_height">70dp</dimen>
+    <dimen name="iv_attachImage_width">120dp</dimen>
+    <dimen name="iv_rightAndWrongImageView_height">20dp</dimen>
+    <dimen name="iv_rightAndWrongImageView_width">20dp</dimen>
+    <dimen name="tv_mediaNameTextView_text_size">15dp</dimen>
+    <dimen name="tv_mediaFileSizeTextView_text_size">12dp</dimen>
+    <dimen name="iv_shape_red_cricle_height">50dp</dimen>
+    <dimen name="iv_shape_red_cricle_width">50dp</dimen>
+    <dimen name="iv_share_black_white_height">25dp</dimen>
+    <dimen name="iv_share_black_white_width">25dp</dimen>
+
+
+    <!--nov 28  brief_news_row.xml Image view and text view size-->
+
+
+    <dimen name="tv_newsTitle_size">16sp</dimen>
+    <dimen name="tv_newsContent_size">12sp</dimen>
+    <dimen name="tv_briefNewsNoText_size">26sp</dimen>
+    <dimen name="tv_briefNewsNoText_height">44dp</dimen>
+    <dimen name="tv_briefNewsNoText_width">44dp</dimen>
+    <dimen name="tv_red_header_color_height">2dp</dimen>
+
+    <dimen name="tv_newsTitle_lineSpacingExtra">4.7sp</dimen>
+
+    <dimen name="tv_newsContent_lineSpacingExtra">4.7sp</dimen>
+
+
+    <!--nov 28  feature_install_ad_layout.xml Image view and text view size-->
+
+    <dimen name="tv_adTitleTextview_install_add_size">12sp</dimen>
+    <dimen name="tv_adTitleTextview_install_add_open_now_size">10sp</dimen>
+
+    <dimen name="adTitleTextview_lines_spacing">2dp</dimen>
+
+
+    <!--nov 28  article_next_story_row.xml Image view and text view size-->
+
+
+    <dimen name="iv_nextStoryIcon_height">64dp</dimen>
+    <dimen name="iv_nextStoryIcon_width">112.7dp</dimen>
+    <dimen name="tv_nextStoryTitle_size">10.5sp</dimen>
+    <dimen name="linear_lay_width">65dp</dimen>
+    <dimen name="iv_nextStoryIcon_width1">50dp</dimen>
+    <dimen name="iv_nextStoryIcon_height1">30dp</dimen>
+    <dimen name="tv_nextStoryText_size">10sp</dimen>
+
+
+    <!--nov 28  feedback.xml Image view and text view size-->
+
+
+    <dimen name="linear_layout_shap_red_border_transprent_rectangle_height">200dp</dimen>
+    <dimen name="et_feedBackEditText_size">16sp</dimen>
+    <dimen name="image_view_share_black_white_width">15dp</dimen>
+    <dimen name="image_view_share_black_white_height">15dp</dimen>
+    <dimen name="image_view_height">2dp</dimen>
+    <dimen name="btn_send_height">40dp</dimen>
+
+
+    <!--nov 28  feedback_user.xml Image view and text view size-->
+
+
+    <dimen name="iv_feed_cricleCrossIcon_height">20dp</dimen>
+    <dimen name="iv_feed_cricleCrossIcon_width">20dp</dimen>
+
+    <dimen name="tv_feed_newsTitle_size">18.7sp</dimen>
+    <dimen name="image_feed_height">1dp</dimen>
+    <dimen name="btn_perform_sound">18sp</dimen>
+    <dimen name="btn_perform_height">40dp</dimen>
+
+    <dimen name="nestedScrollView_min_width">100dp</dimen>
+
+
+    <!--nov 28  fragment_latest_news.xml Image view and text view size-->
+    <dimen name="tv_messageText_size">18.7sp</dimen>
+
+    <!--nov 28  header.xml Image view and text view size-->
+    <dimen name="tv_headerText_size">19sp</dimen>
+
+
+    <!--nov 28  fragment_photo_detail.xml Image view and text view size-->
+
+
+    <dimen name="view_pager_imageDetailPager_height">250dp</dimen>
+    <dimen name="tv_imageNumberText">11sp</dimen>
+    <dimen name="tab_photo_detail_layout_height">60dp</dimen>
+    <dimen name="image_Content_text_size">13sp</dimen>
+
+
+    <!--nov 28  header_ct.xml Image view and text view size-->
+
+
+    <dimen name="iv_backImageView_height">45dp</dimen>
+    <dimen name="iv_backImageView_width">45dp</dimen>
+    <dimen name="tv_headerTitleTextView_size">20dp</dimen>
+    <dimen name="linear_layout_height">45dp</dimen>
+
+    <!--nov 28  header_home_screen.xml Image view and text view size-->
+
+    <dimen name="tv_home_screen_headerText_size">19sp</dimen>
+
+
+    <!--nov 28  header_sprint_four.xml Image view and text view size-->
+
+    <dimen name="iv_leftHeaderIcon_height">45dp</dimen>
+    <dimen name="iv_leftHeaderIcon_width">45dp</dimen>
+    <dimen name="iv_rightHeaderIcon_height">45dp</dimen>
+    <dimen name="iv_rightHeaderIcon_width">45dp</dimen>
+    <dimen name="tv_spirit_four_headerText_size">19sp</dimen>
+    <dimen name="linear_layout_spirit_four_height">45dp</dimen>
+
+    <!--nov 28  home-cricket_card.xml Image view and text view size-->
+
+
+    <dimen name="iv_fristCounteryFlag_height">30dp</dimen>
+    <dimen name="iv_fristCounteryFlag_width">30dp</dimen>
+    <dimen name="iv_secondCountryFlag_height">30dp</dimen>
+    <dimen name="iv_secondCountryFlag_width">30dp</dimen>
+    <dimen name="tv_live_height">20dp</dimen>
+    <dimen name="tv_live_width">40dp</dimen>
+
+    <!--nov 28  home_latest_news.xml Image view and text view size-->
+
+    <dimen name="iv_dividerImage_height">1dp</dimen>
+    <dimen name="iv_latest_dividerImage_height">8dp</dimen>
+    <dimen name="iv_latest_dividerImage_width">1dp</dimen>
+
+    <dimen name="inewsTitle_letter_spacing">2dp</dimen>
+
+
+    <!--nov 28  home_opinion_poll_row.xml Image view and text view size-->
+
+
+    <dimen name="tv_opinionHeaderText_size">18.7sp</dimen>
+    <dimen name="tv_homeTextStyle_size">14.1sp</dimen>
+
+    <!--nov 28  home_photo_gallery_row.xml Image view and text view size-->
+
+    <dimen name="iv_cameraIcon_height">33dp</dimen>
+    <dimen name="iv_cameraIcon_width">33dp</dimen>
+
+    <dimen name="tv_videoText_size">11.7sp</dimen>
+
+
+    <!--nov 28  home_photo_video_card_install_ad_layout.xml Image view and text view size-->
+
+    <dimen name="tv_adTitleTextview1_size">11.7sp</dimen>
+
+    <!--nov 28  home_photo_list_row.xml Image view and text view size-->
+
+    <dimen name="iv_photo_list_cameraIcon_height">33dp</dimen>
+    <dimen name="iv_photo_list_cameraIcon_width">33dp</dimen>
+
+    <dimen name="tv_numerOfImagesText_size_width">50dp</dimen>
+    <dimen name="tv_numerOfImagesText_size_height">25.3dp</dimen>
+    <dimen name="tv_numerOfImagesText_size">10.4sp</dimen>
+
+    <dimen name="numerOfImagesText_min_width">40dp</dimen>
+
+
+    <!--nov 28  home_photo_video_card_content_ad_layout.xml Image view and text view size-->
+
+    <dimen name="mediaView_height">159.7dp</dimen>
+
+    <!--nov 28    home_summary_row.xml Image view and text view size-->
+
+    <dimen name="iv_home_summary_numerOfImagesText_size_height">5dp</dimen>
+    <dimen name="iv_home_summarynumerOfImagesText_size_width">5dp</dimen>
+
+    <dimen name="nestedScrollView_home_summary_min_width">100dp</dimen>
+
+    <!--nov 28    home_video_row.xml Image view and text view size-->
+
+    <dimen name="iv_home_video_row_height">33dp</dimen>
+    <dimen name="iv_home_video_row_width">33dp</dimen>
+
+    <dimen name="tv_timeText_height">40dp</dimen>
+
+    <dimen name="tv_home_video_Text_size">11.7sp</dimen>
+
+    <dimen name="tv_lineSpacingExtra_headerText">-2.3sp</dimen>
+
+
+    <!--nov 28      menu_section_pager_news_list.xml Image view and text view size-->
+
+    <dimen name="tab_layout_menu_section_height">34dp</dimen>
+    <dimen name="tabMinWidth_menu_section">90dp</dimen>
+
+    <!--nov 28    menu_subtitle_row.xml Image view and text view size-->
+
+    <dimen name="iv_menuline_subtle_height">0.5dp</dimen>
+
+    <!--nov 28   multiple_view_holder_layout.xml Image view and text view size-->
+    <dimen name="tv_lineSpacingExtra">-2.3sp</dimen>
+
+    <!--nov 28   my_select_view_holder.xml Image view and text view size-->
+
+    <dimen name="iv_headerLine_height">2dp</dimen>
+    <dimen name="tv_header_text_size">18.7sp</dimen>
+
+
+    <!--nov 28  notification_subtitle.xml Image view and text view size-->
+
+    <dimen name="switchButton_height">30dp</dimen>
+    <dimen name="image_notification_subtle_height">0.5dp</dimen>
+
+
+    <!--nov 28  video_row_black_screen.xml Image view and text view size-->
+
+    <dimen name="iv_play_icon_width">33dp</dimen>
+    <dimen name="iv_play_icon_height">33dp</dimen>
+
+    <dimen name="tv_timeText_width">40dp</dimen>
+
+    <dimen name="tv_row_black_videoText_size">16.7sp</dimen>
+
+
+    <!--nov 28  single_photo_detail_banner_ad_layout.xml Image view and text view size-->
+
+    <dimen name="publisherLinearLayout">250dp</dimen>
+
+    <!--nov 28   photo_detail_image_row.xml Image view and text view size-->
+    <dimen name="iv_newsImage">240dp</dimen>
+
+
+    <!--nov 28   simple_text.xml Image view and text view size-->
+
+
+    <dimen name="ratingBar_height">14.3dp</dimen>
+    <dimen name="ratingBar_image_view">.5dp</dimen>
+
+    <!--nov 28    setting_row.xml Image view and text view size-->
+
+    <dimen name="largeTextIcon_height">32dp</dimen>
+    <dimen name="largeTextIcon_width">32dp</dimen>
+
+
+    <dimen name="mediumTextIcon_height">27dp</dimen>
+    <dimen name="mediumTextIcon_width">27dp</dimen>
+
+    <dimen name="setting_switchButton_height">30dp</dimen>
+
+
+    <dimen name="smallTextIcon_height">27dp</dimen>
+    <dimen name="smallTextIcon_width">27dp</dimen>
+
+    <dimen name="nestIcon_height">30dp</dimen>
+    <dimen name="nextTextIcon_width">30dp</dimen>
+
+
+    <!--nov 28    youtube_video_row.xml Image view and text view size-->
+
+
+    <dimen name="youTubeThumbnailView_height">260dp</dimen>
+    <dimen name="playIcon_width">40dp</dimen>
+    <dimen name="playIcon_height">40dp</dimen>
+    <dimen name="iv_n_height">1dp</dimen>
+
+
+    <!--nov 28    splash.xml Image view and text view size-->
+    <dimen name="iv_sponsoredImage_height">75dp</dimen>
+    <dimen name="iv_sponsoredImage_width">180dp</dimen>
+
+
+    <!--nov 28   home_summary.xml Image view and text view size-->
+
+
+    <dimen name="cricleCrossIcon_height">20dp</dimen>
+    <dimen name="cricleCrossIcon_width">20dp</dimen>
+    <dimen name="readButton_height">34dp</dimen>
+
+
+    <!--nov 28   menu_search_row.xml Image view and text view size-->
+
+
+    <dimen name="frame_height">90dp</dimen>
+    <dimen name="searchIcon_width">45dp</dimen>
+    <dimen name="searchIcon_height">45dp</dimen>
+
+    <dimen name="blue_submit_button_color_height">0.7dp</dimen>
+    <dimen name="image_view_menu_height">0.7dp</dimen>
+
+
+    <!--nov 28 read_offfline.xml Image view and text view size-->
+    <dimen name="nextIcon_read_offline_height">30dp</dimen>
+    <dimen name="nextIcon_read_offline_width">30dp</dimen>
+    <dimen name="offLineSavingSwitch_height">30dp</dimen>
+
+    <dimen name="wifiNetworkSwitch_height">30dp</dimen>
+
+
+    <!--nov 28 home_video_layout.xml Image view and text view size-->
+
+    <dimen name="rightTransImage_height">215dp</dimen>
+    <dimen name="rightTransImage_width">72dp</dimen>
+    <dimen name="leftTransImage_width">72dp</dimen>
+
+    <dimen name="leftTransImage_height">215dp</dimen>
+
+
+    <dimen name="headerText_size">18.7sp</dimen>
+
+    <dimen name="iv_headerLine">2dp</dimen>
+
+
+    <!--nov 28 campain.xml Image view and text view size-->
+    <dimen name="shap_blue_cricle_hight">5dp</dimen>
+    <dimen name="shap_blue_cricle_width">5dp</dimen>
+
+    <dimen name="iv_campain">1dp</dimen>
+
+    <!--nov 28 card_content.xml Image view and text view size-->
+
+    <dimen name="adImageview">196.7dp</dimen>
+
+
+    <!--nov 28 channel_selection_row.xml Image view and text view size-->
+
+
+    <!--nov 28 channel_notification_row.xml Image view and text view size-->
+
+
+    <dimen name="default_image_height">45dp</dimen>
+    <dimen name="default_image_width">45dp</dimen>
+
+    <!--nov 28 photo_gallery_detail_banner.xml Image view and text view size-->
+
+    <dimen name="linear_layout_publisherLinearLayout">250dp</dimen>
+
+
+    <!--nov 28 photo_detail_small_image.xml Image view and text view size-->
+
+    <dimen name="newsImage_height">60dp</dimen>
+    <dimen name="newsImage_max_height">60dp</dimen>
+
+
+    <!--nov 28 notification_tilte.xml Image view and text view size-->
+    <dimen name="nextIcon_height">30dp</dimen>
+    <dimen name="nextIcon_width">30dp</dimen>
+    <dimen name="iv_nextIcon_height">.5dp</dimen>
+
+
+    <!--nov 28 photo_video_list_card_install.xml Image view and text view size-->
+    <dimen name="adImageview_height">196.7dp</dimen>
+
+
+    <!--nov 28 notification_setting.xml Image view and text view size-->
+    <dimen name="nextIcon_noti_height">30dp</dimen>
+    <dimen name="nextIcon_noti_width">30dp</dimen>
+
+    <dimen name="menu_line_height">.5dp</dimen>
+
+
+    <dimen name="next_white_height">20dp</dimen>
+
+    <dimen name="next_white_width">20dp</dimen>
+
+
+    <!--nov 28 menu_setting.xml Image view and text view size-->
+
+    <dimen name="next_nextIconNoti_height">30dp</dimen>
+    <dimen name="next_nextIconNoti_width">30dp</dimen>
+
+    <dimen name="nextIconreadOffline_height">30dp</dimen>
+    <dimen name="nextIconreadOffline_width">30dp</dimen>
+
+    <dimen name="largeTextIcon_menu_height">32dp</dimen>
+    <dimen name="largeTextIcon_menu_width">32dp</dimen>
+
+
+    <dimen name="mediumTextIcon_menu_height">27dp</dimen>
+    <dimen name="mediumTextIcon_menu_width">27dp</dimen>
+
+    <dimen name="smallTextIcon_menu_height">22dp</dimen>
+    <dimen name="smallTextIcon_menu_width">22dp</dimen>
+
+    <dimen name="switchButton_menu_height">30dp</dimen>
+
+
+    <!--nov 28 feed_content_add.xml Image view and text view size-->
+
+
+    <dimen name="adImageview_feature_height">86dp</dimen>
+    <dimen name="adImageview_feature_width">115dp</dimen>
+
+    <dimen name="dividerImageView">.5dp</dimen>
+
+
+    <!--nov 28 citizen_jourlist.xml Image view and text view size-->
+    <dimen name="camera_image_height">100dp</dimen>
+    <dimen name="camera_image_width">150dp</dimen>
+
+    <dimen name="iv_height_citisen">200dp</dimen>
+
+
+    <!--nov 28 citizen_jourlist1.xml Image view and text view size-->
+
+    <dimen name="minHeight_citisen">600dp</dimen>
+    <dimen name="btn_submitButton">45dp</dimen>
+    <dimen name="citizenSkyProgressBarview">15dp</dimen>
+
+    <dimen name="campaignImage_min_width">250dp</dimen>
+    <dimen name="campaignImage_min_hight">200dp</dimen>
+
+
+    <dimen name="attachmentTouchImage_width">100dp</dimen>
+    <dimen name="attachmentTouchImage_height">45dp</dimen>
+
+
+    <!--nov 28 custom_noti_with_gradient.xml Image view and text view size-->
+
+    <dimen name="bigContentImageview">250dp</dimen>
+
+    <dimen name="home_text_row_textSizeTextView_line_spacing">-2.3sp</dimen>
+
+
+    <dimen name="adContentTextview_height">35dp</dimen>
+
+    <dimen name="pager_card_height">220dp</dimen>
+    <dimen name="pager_card_padding">72dp</dimen>
+
+
+    <dimen name="notification_text_size">14sp</dimen>
+
+    <!--transprent bg-->
+    <dimen name="zero_six">0.6dp</dimen>
+
+    <!--pager indicater radius and stock width-->
+    <dimen name="indicater_radius">3.5dp</dimen>
+    <dimen name="stock_width">0.5dp</dimen>
+
+
+    <dimen name="news_detail_text_small">14sp</dimen>
+    <dimen name="news_detail_text_medium">16.5sp</dimen>
+    <dimen name="news_detail_text_large">19sp</dimen>
+
+    <dimen name="news_detail_line_height">7dp</dimen>
+
+    <dimen name="article_detail_web_view_margin">10dp</dimen>
+
+    <!--
+    real size
+    election_card =250
+    cricket_card =165
+    opinion_card =280
+    -->
+    <dimen name="election_pager_size">250dp</dimen>
+    <dimen name="cricket_pager_size">165dp</dimen>
+    <dimen name="opinion_pager_size">280dp</dimen>
+
+
+    <dimen name="is_device">0dp</dimen>
+    <dimen name="live_tv_banner_height">40dp</dimen>
+
+    <dimen name="live_tv_stock_width">1.5dp</dimen>
+
+
+
+
+
+
+</resources>

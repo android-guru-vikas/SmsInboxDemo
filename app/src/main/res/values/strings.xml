@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Vokal</string>
+    <string name="action_settings">Settings</string>
+    <string name="ask_for_permission">Please allow permission!</string>
+    <string name="read_sms_permission_denied">Read SMS permission denied!</string>
+    <string name="default_notification_channel_id">vokal</string>
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+    <string name="permission_never_ask_again">Sms permission needed to use this app.</string>
+</resources>

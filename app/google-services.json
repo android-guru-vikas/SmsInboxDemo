@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "510865099831",
+    "firebase_url": "https://vokal-bb50b.firebaseio.com",
+    "project_id": "vokal-bb50b",
+    "storage_bucket": "vokal-bb50b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510865099831:android:4ddf9a31ed3ef2da",
+        "android_client_info": {
+          "package_name": "com.dev.vokal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510865099831-avl32fqnfln39mrs24ojgf50nf1f68kl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEX55vMLHwJ4UdMcSKxx-jr6VDonMBUeQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

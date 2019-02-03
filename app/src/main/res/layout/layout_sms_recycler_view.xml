@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="@dimen/five_dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/koinImageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="@dimen/five_dp"
+        android:layout_marginTop="@dimen/five_dp"
+        android:tint="@color/colorPrimary"
+        android:src="@drawable/ic_person_outline_black_24dp"
+        app:civ_border_color="@color/colorPrimary"
+        app:civ_border_width="@dimen/one_dp" />
+
+    <LinearLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/five_dp"
+        android:layout_toEndOf="@+id/koinImageView"
+        android:orientation="vertical"
+        android:padding="@dimen/five_dp">
+
+        <com.dev.vokal.design.VokalTextView
+            android:id="@+id/phoneTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:text="asdasdadadasdasdasdasdasdasdadd"
+            android:textSize="@dimen/eighteen_sp"
+            android:textStyle="bold" />
+
+        <com.dev.vokal.design.VokalTextView
+            android:id="@+id/msgTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asdasdadadad"
+            android:textSize="@dimen/twelve_sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
