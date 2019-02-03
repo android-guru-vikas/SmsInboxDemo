@@ -34,6 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:textColor="@color/colorBlack"
             android:text="asdasdadadasdasdasdasdasdasdadd"
             android:textSize="@dimen/eighteen_sp"
             android:textStyle="bold" />

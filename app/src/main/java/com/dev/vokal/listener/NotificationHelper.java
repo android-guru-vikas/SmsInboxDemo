@@ -27,6 +27,7 @@ class NotificationHelper extends ContextWrapper {
         Intent resultIntent = new Intent(getApplicationContext() , SmsListActivity.class);
         resultIntent.putExtra(Constants.KEY_SMS_BODY, body);
         resultIntent.putExtra(Constants.KEY_SMS_ADDRESS, title);
+        resultIntent.putExtra(Constants.KEY_NEW_SMS, true);
         resultIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
         PendingIntent resultPendingIntent = PendingIntent.getActivity(VokalApplication.getAppContext(),

@@ -18,6 +18,7 @@ import android.view.animation.LayoutAnimationController;
 
 import com.dev.vokal.R;
 import com.dev.vokal.adapter.GroupRecyclerViewAdapter;
+import com.dev.vokal.design.EndLessScrollListener;
 import com.dev.vokal.model.DateItem;
 import com.dev.vokal.model.GeneralItem;
 import com.dev.vokal.model.ListItem;
@@ -26,8 +27,7 @@ import com.dev.vokal.utils.AppUtils;
 import com.dev.vokal.utils.Constants;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.Date;
 import java.util.List;
 import java.util.Objects;
 import java.util.TreeMap;
@@ -48,6 +48,7 @@ public class SmsListActivity extends BaseActivity {
     AppBarLayout appBar;
     @BindView(R.id.recyclerView)
     RecyclerView recyclerView;
+    private EndLessScrollListener scrollListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,7 +66,7 @@ public class SmsListActivity extends BaseActivity {
 
     @NeedsPermission({Manifest.permission.READ_SMS, Manifest.permission.RECEIVE_SMS})
     void canRead() {
-        getSmsData(false);
+        getSmsData(getIntent());
     }
 
     @OnPermissionDenied({Manifest.permission.READ_SMS, Manifest.permission.RECEIVE_SMS})
@@ -81,22 +82,32 @@ public class SmsListActivity extends BaseActivity {
     @Override
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
-        getSmsData(true);
+        getSmsData(intent);
     }
 
-    private void getSmsData(boolean highlight) {
+    private void getSmsData(Intent intent) {
+        boolean highlight = false;
+        if (intent != null) {
+            if (intent.hasExtra(Constants.KEY_NEW_SMS)) {
+                highlight = intent.getBooleanExtra(Constants.KEY_NEW_SMS, false);
+            }
+        }
+        long last24Hours = new Date(System.currentTimeMillis() - 24 * 3600 * 1000).getTime();
         Handler handler = new Handler();
+        boolean finalHighlight = highlight;
         handler.post(() -> {
             List<SmsDataModel> smsList = new ArrayList<>();
             Uri uri = Uri.parse(Constants.KEY_SMS_URI);
-            Cursor c = getContentResolver().query(uri, new String[]{Constants.KEY_SMS_ID, Constants.KEY_SMS_ADDRESS, Constants.KEY_SMS_DATE,
-                    Constants.KEY_SMS_BODY}, null, null, " date DESC");
+            Cursor c = getContentResolver().query(uri,
+                    new String[]{Constants.KEY_SMS_ID, Constants.KEY_SMS_ADDRESS, Constants.KEY_SMS_DATE,
+                            Constants.KEY_SMS_BODY}, Constants.KEY_QUERY_DATE,
+                    new String[]{"" + last24Hours}, Constants.KEY_SORT_ORDER);
             if (c != null) {
                 if (c.moveToFirst()) {
                     for (int i = 0; i < c.getCount(); i++) {
                         SmsDataModel sms = new SmsDataModel();
-                        if (highlight) {
-                            sms.setShouldHighLight(true);
+                        if (finalHighlight && i == 0) {
+                            sms.setShouldHighLight(finalHighlight);
                         }
                         sms.setBody(c.getString(c.getColumnIndexOrThrow(Constants.KEY_SMS_BODY)));
                         long milliseconds = c.getLong(c.getColumnIndexOrThrow(Constants.KEY_SMS_DATE));
@@ -149,6 +160,7 @@ public class SmsListActivity extends BaseActivity {
     @Override
     protected void onResume() {
         super.onResume();
+
     }
 
     @Override
